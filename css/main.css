@@ -1,0 +1,707 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	color: #000000;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+}
+
+h2, h3 {
+	color: #543024;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 38px;
+	margin-bottom: 52px;
+
+}
+
+div, p, input, header, a {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	transition: all 0.5s ease;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn {
+	background: #FF7D34;
+	border-radius: 69px;
+	width: 225px;
+	padding: 14px 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+
+.btn-ghost {
+	display: inline-block;
+	margin-top: 58px;
+	width: 260px;
+	border: 1px solid #FF7D34;
+	border-radius: 69px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FF7D34;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.header {
+	background: url(../img/header.jpg) no-repeat center top / cover;
+	color: #fff;
+	padding: 43px 0 75px;
+
+}
+
+.header a{
+	color: #fff;
+
+}
+
+.nav {
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	font-size: 15px;
+	align-items: center;
+
+}
+
+.logo {
+	background: url('../img/logo.svg') no-repeat left center;
+	font-weight: 700;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+	padding-left: 32px;
+	
+}
+
+.menu {
+	display: flex;
+	margin-left: 87px;
+
+}
+
+.menu-item {
+	color: #fff;
+	margin-right: 48px;
+
+}
+
+.menu-item:not(:last-child) {
+	margin-right: 48px;
+}
+
+.nextcity {
+	display: block;
+	margin-right: 56px;
+
+}
+
+.nextcity_title {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.nextcity_text {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.call {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	margin-left: auto;
+}
+
+.btn-call {
+	width: 168px;
+	display: block;
+	border: 1px solid white;
+	border-radius: 100px;
+	font-size: 14px;
+	padding: 11px 0;
+	text-align: center;	
+}
+
+.btn-call:hover {
+	background: #fff;
+	color: #3B5A69;
+}
+
+.call span {
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 13px;
+}
+
+.menu_small {
+	display: none;
+}
+
+
+.myModal {
+  width: 300px; height: 300px;
+  padding: 18px 9px;
+  border-radius: 4px;
+  background: #fafafa;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+}
+
+.form__popup {
+
+	align-items: center;
+	text-align: center;
+	
+}
+
+.myModal input {
+	margin-top: 10px;
+	height: 20px;
+	width: 100%;
+}
+
+.btn__popup {
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 100px;
+	font-size: 14px;
+	padding: 11px 0;
+	text-align: center;	
+}
+
+.myModal__close {
+  width: 21px; height: 21px;
+  position: absolute;
+  font-size: 29px;
+  top: 1px; right: 11px;
+  cursor: pointer;
+  display: block;
+  color: #91614C;
+}
+
+.myOverlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.5);
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.offer {
+	text-align: center;
+	margin: 193px auto 0;
+}
+
+.offer h1 {
+	font-size: 50px;
+	margin-bottom: 18px;
+}
+
+.offer p {
+	width: 486px;
+	margin: 0 auto;
+	margin-bottom: 21px;
+}
+
+.offer .btn {
+	margin: 0 auto;
+}
+
+.btn:hover {
+	background: #D46628;
+}
+
+.arrow { 
+	height: 15px; 
+	width: 15px;
+	border-bottom: 1px solid #fff; 
+	border-right: 1px solid #fff; 
+	transform: rotate(45deg); 
+	margin: 0 auto;
+	margin-top: 184px;
+	cursor: pointer;
+} 
+
+.trip {
+	padding: 96px 0 48px;
+
+}
+
+.trip h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	margin-bottom: 47px;
+}
+	
+.trip h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.cities {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	
+}
+
+.cities__more {
+	display: none;
+}
+
+.cities__visible {
+	display: flex;
+}
+
+.trip li {
+	display: flex;
+	margin-bottom: 31px;
+	margin-right: 30px;
+}
+
+
+.trip li:not(:nth-child(2n+2)) {
+	margin-right: 30px;
+}
+
+.city {
+	width: 570px;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 15px;
+
+}
+
+.city:hover {
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.40);
+	cursor: pointer;
+	
+}
+
+.cities img {
+	display: block;
+	border-radius: 15px 0 0 15px;
+}
+
+.city_text {
+	padding: 34px 28px; 
+}
+
+.city_detail {
+	display: flex;
+	justify-content: space-between;
+	width: 230px;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.city_detail span {
+	display: flex;
+	font-weight: 400;
+	font-size: 13px;
+	background: #EE3C5C;
+	border-radius: 30px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 3px 13px;
+	
+}
+
+.city_detail_date {
+	color: #EE3C5C;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.city_text h3 {
+	margin-bottom: 12px;
+}
+
+.city_detail_text {
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.btn-ghost:hover {
+	background: #FF7D34;
+	color: #fff;
+}
+
+.about {
+	padding: 48px 0 48px;
+
+}
+
+.about-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-content_text {
+
+}
+
+.about img {
+	display: block;
+	border-radius: 15px;
+}
+
+.about h3 {
+	font-size: 20px;
+	margin-bottom: 21px;
+}
+
+.about p {
+	width: 572px;
+	line-height: 1.45em;
+	margin-bottom: 34px;
+}
+.about p:last-child {
+	margin-bottom: 0px;
+}
+
+
+.contacts {
+	padding: 48px 0 48px; 
+}
+
+.contacts_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts h2{
+
+}
+
+.contacts h3 {
+	margin-bottom: 37px;
+	width: 367px;
+	line-height: 1.5em;
+}
+.form {
+	background: #FFFFFF;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 20px;	
+	width: 601px;
+	padding: 58px 64px 97px;
+
+}
+
+input {
+	display: block;
+	width: 473px;
+	height: 59px;
+	padding: 20px 0 20px 26px;
+	margin-bottom: 13px;
+	border: 1px solid rgba(39, 52, 86, 0.26);
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.contacts .btn {
+	width: 295px;
+	margin-top: 20px;
+	padding: 21px 0;
+}
+
+.number {
+	display: block;
+	text-align: center;
+}
+
+.number img {
+	margin-bottom: 16px;
+}
+
+.footer {
+	text-align: center;
+	padding: 66px 0 116px;
+	background: 
+}
+
+.footer-text {
+	font-size: 15px;
+	color: rgba(114, 52, 26, 0.6);	
+}
+
+.animated {
+	opacity: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu_small {
+		display: block;
+		margin-left: auto;
+	}
+
+	.city {
+		width: 100%;
+	}
+	
+	.city_text {
+		padding: 34px 70px;
+	}
+
+	.about p{
+		width: 400px;
+		margin-bottom: 15px;
+	}
+
+	.about img {
+		width: 55%;
+	}
+	
+
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.nextcity {
+		display: none;
+	}
+	
+	.about-content {
+		display: block;
+		width: 100%;
+	}
+
+	.about-content_text {
+		width: 100%;
+	}
+
+	.about p {
+		width: 100%;
+	}
+
+	.about p:last-child {
+		margin-bottom: 10px;
+	}
+
+	.about img {
+		width: 100%;
+	}
+
+	.contacts h3 {
+		width: auto;
+	}
+
+	.form {
+		width: 400px;
+    	padding: 58px 25px 65px;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	.contacts .btn {
+		width: 100%;
+	}
+
+	.footer {
+		padding: 40px 0 90px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.container {
+		width: 540px;
+	}
+
+	.call {
+		display: none;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.arrow {
+		margin-top: 166px;
+	}
+
+	.trip h2 {
+		font-size: 35px;
+	}
+
+	.city_text {
+		padding: 34px 20px;
+	}
+	
+	.btn-ghost {
+		margin-top: 35px;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+	.contacts h2 {
+		font-size: 35px;
+	}
+
+	.contacts_content {
+		display: block;
+	}
+
+	.form {
+		width: 90%;
+	}
+
+	.number {
+		margin-top: 45px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	.offer p {
+		width: 100%;
+	}
+
+	.trip h2 {
+		font-size: 30px;
+		text-align: center;
+		
+	}
+
+	.cities li {
+		display: block;
+		margin-right: 0;
+	}
+
+	.trip li:not(:nth-child(2n+2)) {
+    margin-right: 0;
+    }
+
+	.city {
+		margin: 0 auto;
+	}
+
+	.city_text {
+		padding: 34px 40px;
+	}
+
+	.trip img {
+		border-radius: 15px 15px 0 0;
+		width: 100%;
+	}
+
+	.about {
+		text-align: center;
+		
+	}
+	
+	h2 {
+		font-size: 30px;
+
+	}
+
+
+	.contacts {
+		text-align: center;
+		
+	}
+
+	.contacts h2 {
+		font-size: 30px;
+	}
+
+	.form {
+		padding: 30px 20px;
+	}
+
+	.contacts h3 {
+		line-height: 1.3em;
+		font-size: 16px;
+	}
+
+	input {
+		height: 45px;
+		font-size: 14px;
+	}
+	
+	.contacts .btn {
+		padding: 10px 0;
+	}
+
+	.footer {
+		padding: 0 0 40px;
+	}
+}
+
+
+
+f
